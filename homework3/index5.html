@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <ul>
+          <li>
+                 <a href="index.html">Главная</a>
+          </li>
+          <li>
+                 <a href="index2.html">Флаги государств</a>
+          </li>
+          <li>
+                 <a href="index3.html">Общая информация о Российской Федерации</a>
+          </li>
+	      <li>
+                 <a href="index4.html">Вход</a>
+          </li>
+          <li>
+                 <a href="index5.html">Регистрация</a>
+          </li>
+		   <li>
+                 <a href="index6.html">Евросоюз</a>
+          </li>
+		  <li>
+                 <a href="index7.html">Опросник</a>
+          </li>
+		  <li>
+                 <a href="index8.html">CSS Grid</a>
+          </li>
+      </ul>
+  <form action="index.html" enctype="multipart/form-data"  method="post">
+    <fieldset>
+      <legend>Регистрация</legend>
+             <p> 
+        <label> Почтовый адресс: 
+          <input type="email"  value="web_test_2021@mail.ru">
+        </label>
+             </p>
+               <p></p>
+             <p>
+        <label> Пароль:
+          <input type="password"  maxlength="15" required minlength="3" placeholder="Введите пароль">
+        </label>
+             </p>
+               <p></p>
+             <p>
+        <label> Подтверждение пароля:
+          <input type="password" maxlength="15" required minlength="3" placeholder="Введите пароль">
+          
+        </label>
+             </p>
+               <p></p>
+             <p> Пол
+        <label>
+          <input type="radio" required name="answer">
+          Муж
+        </label>
+        <label>
+          <input type="radio" required name="answer">
+          Жен
+        </label>
+             </p>
+               <p></p>
+             <p>
+        <label for="date">Дата рождения</label>
+        <input id="date" required min="2010-12-12" type="date">
+             </p>
+              <p></p>
+             <p>
+        <input type="file" multiple accept="image/*">
+             </p>
+              <p></p>
+             <p>
+        <input type="reset"  value="Очистить">
+             </p>
+              <p></p>
+             <p>
+        <input type="submit"  value="Войти">
+             </p>
+    </fieldset>
+  </form>
+    </div>
+  </body>
+</html>

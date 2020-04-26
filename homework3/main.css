@@ -1,0 +1,61 @@
+﻿/* *{ команды для всего документа
+}*/
+
+body {
+    background-color: white;
+    background-image: url(pictures/228.png) ;
+    background-attachment: fixed;
+    background-position: right 15% bottom 30%;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+     }
+.menu li{
+  text-transform: uppercase;
+  color: black;
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+
+}
+#country{
+  width: 50px;
+  height: 35px;
+}
+img {
+  width: 300px;
+  height: 200px;
+}
+a{
+    /*text-decoration: none;*/
+    color: #a91547;
+}
+
+h1 {
+  font-size: 27px;
+}
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 6px 6px 6px #999;  
+}	
+
+  /*font-weight узкий, жирный, нормальный шрифт*/    
+  
+/*.href:hover {
+    color: red /*при наведениина сылку  становится красным( почему-то не работает)
+} */
+/*.href:active {
+    color: red /*при нажатии на ссылку становится красным
+}*/
+/*.href:visited {
+    color: red /*при прохождении по ссылке становится красным
+}*/
+.href{
+    color: black
+}
+
+
