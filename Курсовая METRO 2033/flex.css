@@ -1,0 +1,33 @@
+﻿/* row boxes*/
+.flex_row_evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex_row_around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex_row_between {
+    display: flex;
+    justify-content: space-between;
+}
+/* col  boxes */
+.flex_col_evenly {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.flex_col_around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.flex_col_between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
