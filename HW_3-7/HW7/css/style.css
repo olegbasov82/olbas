@@ -1,0 +1,48 @@
+.col1 {
+    color: red;
+}
+
+.col2 {
+    color: green;
+}
+
+.col3 {
+    color: blue;
+}
+
+.red {
+    background-color: gray;
+}
+
+.red.active {
+    background-color: red;
+}
+
+.yellow {
+    background-color: grey;
+}
+
+.yellow.active {
+    background-color: yellow;
+}
+
+.green {
+    background-color: grey;
+}
+
+.green.active {
+    background-color: green;
+}
+
+.colors div {
+    width: 100px;
+    height: 100px;
+}
+
+.colors {
+    margin-top: 50px;
+    border: 1px solid black;
+    width: 100px;
+    height: 300px;
+}
+
