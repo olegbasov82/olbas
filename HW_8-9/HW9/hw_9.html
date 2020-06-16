@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src='./js/hw_9.js'></script> 
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="myDiv" style="width:600px;height:500px;"></div>
+	<script>
+		let arr = [5,8,1,36,2,17];
+
+		myUtils.minElemArr(arr);
+		myUtils.maxElemArr(arr);
+		myUtils.meanAr(arr);
+
+		let newArr = myUtils.cloneArr(arr);
+
+		console.log('Старый массив: ' + arr);
+		console.log('Новый массив: ' + newArr);
+
+		Plotly.plot('myDiv',[data],layout);
+	</script>
+	
+</body>
+</html>
