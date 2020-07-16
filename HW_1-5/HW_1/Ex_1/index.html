@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW_1_1</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+        <section class="product-layter" id = 'product'>
+        <div class="container">
+              <div class="product-layter__block">
+                  <form class="product-layter__form">
+                      <h2 class="section__title product-layter__subtitle banner__title">{{product.title}}</h2>
+                      <p class="list__titte">Color: {{product.color}}</p>
+                      <p v-html = "product.discription" class="product-text"></p>
+                      <div class="form__btn_block">
+                          <span class="form__prise">{{product.priceSale | returnPrice}}</span>
+                      </div>   
+                 </form>
+
+                 <div class="product-layter__wrap">
+                    <img :src="product.url" alt="" class="layter-slider_big">
+                </div>
+
+              </div>
+          </div>
+      </section>
+      <script src="js/main.js"></script>
+</body>
+</html>

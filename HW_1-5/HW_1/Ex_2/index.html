@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW_1_2</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div class="container" id='visitor'>
+        <div class="flex-wrap">
+            <div class="left-container">
+                <img :src="visitor.avatar" alt="avatar">
+            </div>
+            <div class="right-container">
+                <p class="text">Фамилия: {{ visitor.lastName}} </p>
+                <p class="text">Имя: {{ visitor.name}} </p>
+                <p class="text">Возраст: {{ visitor.age }} </p>
+                <p class="text">Логин: {{ visitor.login }} </p>
+                <p class="text">Email: {{ visitor.email }} </p>                
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

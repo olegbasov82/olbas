@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW_3_2</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+	<body>
+		 <div id="app">
+			<h1>Редактирование текстового тега</h1>
+		    <div class="text-contant">
+				<label class = 'label' v-show='flag' > 
+					<input type="text" v-model="inputText"  @keyup.enter="showInput">
+					<button @click = 'showInput' class="btn"> Заисать изменения </button>
+				</label>
+				<p class="text" @click='showInput' v-show = '!flag'>
+					{{  inputText }}          
+				</p>
+			</div>
+		</div>
+	<script src="js/main.js"></script>
+	</body>
+</html>

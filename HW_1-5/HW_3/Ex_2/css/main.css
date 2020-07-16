@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.text-contant{
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+}
+input{
+    margin-right: 15px;
+    padding: 10px 15px;
+}
+.btn{
+    padding: 10px;
+    border: none;
+    background-color: darkblue;
+    cursor: pointer;
+    color: white;
+}
+.text{
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px 15px;
+    margin: 0;
+}
+.text:hover{
+    background-color:#8de60c;
+}
+.label{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
